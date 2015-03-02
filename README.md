@@ -2,6 +2,17 @@
 
 使用 CMake + gtest 官方例子建立项目，方便学习。
 
+## 用法
+
+    $ git clone https://github.com/fifilyu/cmake-gtest-official-samples.git
+    $ mkdir cmake-gtest-official-samples_build
+    $ cd cmake-gtest-official-samples_build
+    $ cmake ../cmake-gtest-official-samples
+    $ make -j 4
+    $ make test
+    
+## 官方说明
+
 >Google C++ Testing Framework Samples
 >
 > If you're like us, you'd like to look at some Google Test sample code. The [samples folder] has a number of well-commented samples showing how to use a variety of Google Test features.
